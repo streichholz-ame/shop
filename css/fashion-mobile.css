@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@media only screen and (max-width: 1240px){
+    body, html {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    
+    .header-info {
+        width: 100%;
+        justify-content: space-between;
+        font-size: 1rem;
+    }
+
+    .container-fixed {
+        margin: 0 50px;
+        height: auto;
+    }
+    .menu {
+        display: none;
+    }
+
+    .banner-top {
+        padding: 40px 0 0 30px;
+        width: 100%;
+        height: 20rem;
+        background-size: cover;
+    }
+
+    .banner-top h2 {
+        font-size: 8rem;
+        line-height: 8rem;
+    }
+
+    .banner-top h4 {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    .user-panel a img {
+        height: 2rem;
+    }
+
+    .logo img {
+        height: 50px;
+    }
+
+    .sale-banners {
+        flex-wrap: wrap;
+    }
+
+    .banner-pink, .banner-blue {
+        width: 100%;
+        margin: 0;
+    }
+
+    .counter {
+        flex-wrap: wrap;
+        text-align: center;
+        width: 100%;
+        height: auto
+    }
+
+    .counter-container {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    .counter-top {
+        width: 500px;
+        margin: 40px auto;
+        padding: 0;
+
+    }
+
+    .counter-timer {
+        margin: 40px auto;
+        justify-content: space-evenly;
+    }
+
+    .counter-button {
+        margin: 0 0 1rem;
+    }
+
+    #counter-img {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .banner-bottom {
+        width: 100%;
+    }
+
+    .fashionshop-info {
+        margin-top: 30px;
+    }
+
+    .perks {
+        margin: 50px 0;
+    }
+
+    .subscribe-heading {
+        font-size: 2rem;
+    }
+
+    .subscribe-subheading {
+        font-size: 1rem;
+    }
+
+    .subscribe-form {
+        margin: 48px 0 0;
+    }
+
+    .subscribe-form {
+        margin: 30px 0 0;
+    }
+
+    #email {
+        font-size: 1rem;
+        width: 25rem;
+    }
+
+    #submit {
+        width: 10rem;
+    }
+
+    .featured-heading, .products-heading {
+        margin-top: 2rem;
+        font-size: 2.4rem;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    
+    .container-fixed {
+        margin: 0;
+    }
+    .header-info {
+        font-size: 0.8rem;
+    }
+
+    .user-panel a img {
+        height: 1.3rem;
+    }
+    .banner-top {
+        height: 15rem;
+    }
+
+    .banner-top h2 {
+        font-size: 6rem;
+        line-height: 6rem;
+    }
+
+    .banner-top h4 {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    
+    #counter-img {
+        width: 100%;
+    }
+
+    .counter-heading { 
+        font-size: 4rem;
+    }
+
+    .counter-description {
+        padding-top: 2rem;
+        font-size: 2rem;
+    }
+
+    .banner-bottom-description {
+        font-size: 1rem;
+    }
+    .banner-bottom-heading {
+        font-size: 2rem;
+    }
+
+    #email {
+        width: 15rem;
+    }
+}
+@media only screen and (max-width: 600px){
+    
+    .banner-top {
+        height: 15rem;
+    }
+
+    .featured-heading, .products-heading {
+        text-align: center;     
+    }
+
+    .timer-box {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .timerQty {
+        line-height: 3rem;
+        font-size: 2rem;
+    }
+
+    .timer-measure {
+        line-height: 1rem;
+        font-size: 1rem;
+    }
+
+    .perks {
+        width: 100%;
+        flex-flow: column;
+        text-align: center;
+    }
+    
+    .perks-item {
+        margin: 1rem auto;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    
+    
+    .header-info {
+        font-size: 0.7rem;
+    }
+
+    .logo img {
+        height: 2.5rem;
+    }
+
+    .banner-top {
+        height: 10rem;
+    }
+
+    .banner-top h2 {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+
+    .banner-top h4 {
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+
+    .counter-top {
+        width: 100%;
+        margin: 2rem auto;
+        line-height: 5rem;
+        font-size: 3rem;
+    }
+
+    .counter-heading {
+        font-size: 3rem;
+    }
+    
+    .counter-description {
+        font-size: 1.5rem;        
+    }
+
+    .banner-heading {
+        font-size: 5rem;
+    }
+    
+    .fashionshop-heading {
+        font-size: 2rem;
+    }
+    
+    .fashion-shop-subheading {
+        font-size: 0.8rem;
+    }
+
+    .perks {
+        width: 100%;
+        flex-flow: column;
+        text-align: center;
+    }
+    
+    .perks-item {
+        margin: 1rem auto;
+    }
+
+    .item-img img {
+        width: 80%;
+    }
+
+    .subscribe-heading {
+        font-size: 1.6rem;
+    }
+
+    .subscribe-subheading {
+        font-size: 0.9rem;
+    }
+    
+    #email {
+        width: 20rem;
+        margin-bottom: 1rem;
+    }
+
+    .subscribe {
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .header-phone {
+        margin: 0;
+    }
+
+    .banner-top {
+        height: 9rem;
+    }
+
+    .featured-heading, .products-heading {
+        margin: 1rem auto;
+        font-size: 2rem;
+    }
+
+    .counter-heading {
+        line-height: 3rem;
+        font-size: 2rem;
+    }
+
+    .counter-description {
+        padding-top: 1rem;
+        font-size: 1rem;
+    }
+
+    .counter-price {
+        font-size: 2rem;
+    }
+
+    .timer-box {
+        margin: 0;
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .timerQty {
+        line-height: 2rem;
+        font-size: 1.6rem;
+    }
+
+    .timer-measure {
+        line-height: 1rem;
+        font-size: 0.5rem;
+    }
+}
